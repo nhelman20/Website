@@ -1,0 +1,71 @@
+<css>
+.nav a {
+  color: red;
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+
+.nav li {
+  display: inline;
+  color: red;
+}
+
+.jumbotron {
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.jumbotron .container {
+  position: relative;
+  bottom: 30px;
+}
+
+.jumbotron h1 {
+  color: #003dff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #cb2121;
+}
+
+.learn-more {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+    
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom:13px
+}
+</css>
