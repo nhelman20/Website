@@ -16,11 +16,3 @@ while 1:
     screen.blit(logo, logorect)
     pygame.display.flip()
     
-    
-    
-    
-    
-    
-    
-    
-    

@@ -881,7 +881,7 @@ if __name__ == '__main__':
 		
 		screen.blit(logo, logorect)
 		pygame.display.flip()
-		time.sleep(1)
+		time.sleep(3)
 		pygame.quit()
 
 
