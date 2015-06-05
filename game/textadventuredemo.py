@@ -60,7 +60,7 @@ worldRooms = {
 	    
 			DESC: 'The delightful smell of junk fills the air, making you hungry. You drool... The baker has a knife in his hand, he drops it',
 			EAST: 'PAC',
-			SHOP: ['Brownie', 'Hot Dog', 'Pizza'],
+			SHOP: ['Brownie', 'Hotdog', 'Pizza'],
 			GROUND: ['Shop Howto', 'Knife']},
         
 		'SC Room': {
@@ -166,6 +166,7 @@ worldRooms = {
 			DESC: 'THE PLACE EVERYONE HATES',
 			NORTH: 'Office',
 			SOUTH: 'Library',
+			EAST: 'Secret Room',
 			GROUND: []},
 		
 		'Library': {
@@ -206,6 +207,32 @@ worldRooms = {
 	    	NORTH: 'Home Room',
     		GROUND: []},
 		}
+		
+		
+		'Secret Room': {
+	    
+	    	DESC: 'BOO!',
+	    	NORTH: 'Secret Door',
+	    	SOUTH: 'Spanish',
+    		GROUND: []},
+		}
+		
+		'Secret Door': {
+	    
+	    	DESC: 'BOO!',
+	    	NORTH: '?',
+	    	SOUTH: 'Secret Room',
+    		GROUND: []},
+		}
+		
+		'?': {
+	    
+	    	DESC: 'YOU DIE! HAHAHAHA',
+			NORTH: 'Home Room',
+    		GROUND: []},
+		}		
+		
+				
     
     
 
@@ -264,10 +291,10 @@ worldItems = {
         LONGDESC: 'The battery is dead but you still have hope you are eager to get out of this place.',
         TAKEABLE: True,
         DESCWORDS: ['macbook', 'dead', 'hope', 'device']},
-    'Hot Dog': {
-        GROUNDDESC: 'A suspicious Hot dog rests on the ground.',
-        SHORTDESC: 'a Hot dog',
-        LONGDESC: 'A Hot dog. It tastes like a normal hot dog.',
+    'Hotdog': {
+        GROUNDDESC: 'A suspicious Hotdog rests on the ground.',
+        SHORTDESC: 'a Hotdog',
+        LONGDESC: 'A Hotdog. It tastes like a normal Hotdog.',
         EDIBLE: True,
         DESCWORDS: ['hot', 'dog']},
     'Pizza': {
@@ -881,7 +908,7 @@ if __name__ == '__main__':
 		
 		screen.blit(logo, logorect)
 		pygame.display.flip()
-		time.sleep(3)
+		time.sleep(10)
 		pygame.quit()
 
 
